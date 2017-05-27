@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
     s.platform     = :ios, "7.0"
     s.homepage     = "https://github.com/lijianli1013/SKColumnView"
     s.source       = { :git => "https://github.com/lijianli1013/SKColumnView.git", :tag => s.version.to_s }
-    s.source_files = "SKColumnViews/*.{h,m}"
+    s.source_files = "SKColumnView/**/*.{h,m}"
     s.requires_arc = true
 end
