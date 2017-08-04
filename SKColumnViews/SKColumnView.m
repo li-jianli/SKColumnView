@@ -45,6 +45,8 @@
         view = nil;
         UIView *master = [[UIView alloc]init];
         master = nil;
+        UIView *sub_branch = [[UIView alloc]init];
+        sub_branch = nil;
         //设置默认值
         _nomarlColor = [UIColor blackColor];
         _selectColor = [UIColor redColor];
