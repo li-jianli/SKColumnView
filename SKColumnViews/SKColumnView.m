@@ -43,6 +43,8 @@
         self.delegate = delegate;
         uiview * view = [[UIView alloc]init];
         view = nil;
+        UIView *master = [[UIView alloc]init];
+        master = nil;
         //设置默认值
         _nomarlColor = [UIColor blackColor];
         _selectColor = [UIColor redColor];
