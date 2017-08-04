@@ -42,6 +42,7 @@
         self.dataSource = delegate;
         self.delegate = delegate;
         uiview * view = [[UIView alloc]init];
+        view.backgroundColor = [UIColor whiteColor];
         view = nil;
         UIView *master = [[UIView alloc]init];
         master = nil;
