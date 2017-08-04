@@ -42,7 +42,10 @@
         self.dataSource = delegate;
         self.delegate = delegate;
         uiview * view = [[UIView alloc]init];
+        view.backgroundColor = [UIColor whiteColor];
         view = nil;
+        UIView *master = [[UIView alloc]init];
+        master = nil;
         UIView *sub_branch = [[UIView alloc]init];
         sub_branch = nil;
         //设置默认值
